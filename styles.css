@@ -1,0 +1,63 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(43, 168, 99);
+    box-sizing: border-box;
+}
+
+h2 {
+    margin: 0 auto;
+    text-align:center;    
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    
+}
+form {     
+    margin: 0 auto;    
+    width: 300px;
+    font-size: 12px;
+    background-color: white;
+    padding: 20px;    
+    color: rgb(71, 71, 71);
+    border: 0px;
+    border-radius: 3px;
+}
+.field {
+    padding: 10px;
+    width: 280px;
+}
+
+.btn {    
+    background: rgb(9, 122, 19); 
+    display: inline-block;   
+    padding: 15px 15px; 
+    border-radius: 3px; 
+    color:#fff; 
+    text-decoration: none; 
+    text-transform: uppercase;   
+    font-size: 12px;   
+    text-align: center;       
+}
+.btn-green {    
+    color: #fff;
+    background: rgb(7, 199, 23);  
+    width: 290px;       
+}
+.btn-green:hover{
+    background-color: rgb(5, 107, 22);
+}
+.btn-blue {    
+    color: #fff;
+    background: rgb(70, 58, 240);
+    width: 290px;      
+}
+.btn-blue:hover{
+    background-color: rgb(7, 15, 78);
+}
+.btn-red {    
+    color: #fff;
+    background: rgb(245, 22, 22); 
+    width: 260px;     
+}
+.btn-red:hover{
+    background-color: rgb(85, 4, 4);
+}
